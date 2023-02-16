@@ -27,22 +27,20 @@ Creates a new medical bill in the system.
 ## Instruction
 1. Clone the repository to your local machine.
 ![Step1](https://user-images.githubusercontent.com/83096156/219266621-5c267917-744c-4f4f-92e8-3471a69397e7.gif)
-2. Navagiate to the folder of where you saved it
-![Step2]()
-3. Run 'npm install' in your terminal
-![Step3]()
+2. Navagiate to the folder of where you saved it and Run 'npm install' in your terminal
+![step2](https://user-images.githubusercontent.com/83096156/219267186-fcf9e852-b731-4f15-bf41-11d648c48b65.gif)
 4. Run node index.js to start the server. Check localhost:3000 (default port) and terminal to confirm that the app is up and running
-![Step4]()
+![Step3]()
 5. Use your preferred HTTP client, such as Postman or cURL, to make HTTP requests to the API.
     To retrieve a list of all items in the system, make a GET request to the /items endpoint.
-    ![Step5a]()
+    ![Step4a]()
     To create a new item, make a POST request to the /items endpoint. You must provide the following information in the request body:
     - patient: the patient's name
     - address: the patient's address
     - hospital: the patient's hospital 
     - date: date of service for the patient
     - amount: bill amount for the service
-    ![Step5b]()
+    ![Step4b]()
 
 ## Conclusion
 This API provides a simple way to retrieve, create, item data. Please refer to the documentation above for information on how to use the API endpoints.
