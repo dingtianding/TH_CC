@@ -19,11 +19,11 @@ app.listen(
 app.get('/', (req, res) => {
     res.send('Hello Truffle Health!');
 });
-app.get('/api/items', (req, res) => {
+app.get('/items', (req, res) => {
     res.status(200).send(items)
 });
 
-app.post('/api/items', (req, res) => {
+app.post('/items', (req, res) => {
     const schema = {
         patient: Joi.string().required(),
         address: Joi.string().required(),
