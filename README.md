@@ -34,7 +34,7 @@ Creates a new medical bill in the system.
 5. Use your preferred HTTP client, such as Postman or cURL, to make HTTP requests to the API.
     
     To retrieve a list of all items in the system, make a GET request to the /items endpoint.
-    ![step4a](https://user-images.githubusercontent.com/83096156/219267744-963403db-33e3-49dc-b171-7071f0fedc59.gif)
+![step4a](https://user-images.githubusercontent.com/83096156/219267744-963403db-33e3-49dc-b171-7071f0fedc59.gif)
     
     To create a new item, make a POST request to the /items endpoint. You must provide the following information in the request body:
     - patient: the patient's name
@@ -42,7 +42,7 @@ Creates a new medical bill in the system.
     - hospital: the patient's hospital 
     - date: date of service for the patient
     - amount: bill amount for the service
-    ![step4b](https://user-images.githubusercontent.com/83096156/219268692-8b2ba63e-c7d8-4d25-a6b8-76effc50fa28.gif)
+![step4b](https://user-images.githubusercontent.com/83096156/219268692-8b2ba63e-c7d8-4d25-a6b8-76effc50fa28.gif)
 
 ## Conclusion
 This API provides a simple way to retrieve, create, item data. Please refer to the documentation above for information on how to use the API endpoints.
