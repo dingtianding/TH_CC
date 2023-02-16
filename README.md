@@ -32,8 +32,10 @@ Creates a new medical bill in the system.
 4. Run node index.js to start the server. Check localhost:3000 (default port) and terminal to confirm that the app is up and running
 ![step3](https://user-images.githubusercontent.com/83096156/219267405-a4fa7225-428d-4ead-a5fa-bd74020495c3.gif)
 5. Use your preferred HTTP client, such as Postman or cURL, to make HTTP requests to the API.
+    
     To retrieve a list of all items in the system, make a GET request to the /items endpoint.
     ![step4a](https://user-images.githubusercontent.com/83096156/219267744-963403db-33e3-49dc-b171-7071f0fedc59.gif)
+    
     To create a new item, make a POST request to the /items endpoint. You must provide the following information in the request body:
     - patient: the patient's name
     - address: the patient's address
