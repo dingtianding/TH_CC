@@ -26,7 +26,7 @@ Creates a new medical bill in the system.
 
 ## Instruction
 1. Clone the repository to your local machine.
-![step1](https://user-images.githubusercontent.com/83096156/219263373-597dd7e3-d9bb-4c0b-bdf3-4d348f843544.mov)
+![Step1](https://user-images.githubusercontent.com/83096156/219266621-5c267917-744c-4f4f-92e8-3471a69397e7.gif)
 2. Navagiate to the folder of where you saved it
 ![Step2]()
 3. Run 'npm install' in your terminal
