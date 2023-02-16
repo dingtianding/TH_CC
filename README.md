@@ -1,7 +1,7 @@
-## API Endpoints
+# Truffle Health API Endpoints 
 This is a RESTful API that provides several endpoints for interacting with the server.
 
-# Getting Started
+## Getting Started
 To use this API, you will need to make HTTP requests to the server. You can use any HTTP client to interact with the API.
 
 The API supports the following HTTP methods:
@@ -10,10 +10,10 @@ POST: create data
 
 Note that there is no authentication implement in the current version.
 
-# Technology
+## Technology
 Language: Node, Framework: Express
 
-# Endpoints
+## Endpoints
 The following endpoints are available in the API:
 - /items
 This endpoint allows you to retrieve, create, update, and delete item data.
@@ -24,7 +24,7 @@ Returns a list of all medical bills in the system.
 - POST /items
 Creates a new medical bill in the system.
 
-# Instruction
+## Instruction
 1. Clone the repository to your local machine.
 2. Navagiate to the folder of where you saved it
 3. Run 'npm install' in your terminal
@@ -39,7 +39,7 @@ Creates a new medical bill in the system.
  - date: date of service for the patient
  - amount: bill amount for the service
 
-# Conclusion
+## Conclusion
 This API provides a simple way to retrieve, create, item data. Please refer to the documentation above for information on how to use the API endpoints.
 
 
